@@ -1,0 +1,1084 @@
+body {
+  background-color: #ADBECA;
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+
+/*Cabecera*/
+
+.cabecera__container {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    padding-top: 40px;
+}
+
+.cabecera__name {
+    font-size: 1.25em;
+}
+
+.cabecera__iconos__item {
+    display: flex;
+    gap: 40px;
+    font-size: 1.25em;
+}
+
+/*Información central*/
+
+.principal__container {
+    padding: 80px 270px 100px 236px;
+    justify-content: space-around;
+    gap: 40px;
+    align-self: flex-start;
+}
+
+.principal__titulo {
+    font-size: 4em;
+    padding: 0 0 20px 50px ;
+}
+
+.principal__img {
+    float: right;
+    width: 350px;
+    padding: 0 10px 0 0 ;
+   border-radius: 200px 200px 200px 200px ;
+}
+
+.principal__informaicion {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    padding: 0 0 20px 50px ;
+    font-style: normal;
+}
+
+.principal__iconos__item {
+    display: flex;
+    font-size: 1.5em;
+    padding: 20px 0 20px 50px ;
+    gap: 50px;
+   
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.principal__iconos__item__img {
+    padding-left: 30px;
+}
+
+/*Sobre mi*/
+
+.about__container {
+    padding: 50px 270px 50px 280px;
+    background-color: #A9D5F5;
+}
+
+.about__titulo {
+    font-size: 3em;
+    padding: 0 0 30px 0 ;
+}
+
+.about__informacion__cero {
+    font-size: 1.25em;
+    padding: 0 400px 0 0;
+}
+
+.about__informacion__dos , .about__informacion__uno {
+    padding: 0 0 30px 0 ;
+}
+
+.about__img {
+    background-color: #A9D5F5;
+    width: 150px;
+    padding-top:15px;
+}
+
+/*Skills*/
+
+.skills__titulo {
+    font-size: 3em;
+    padding: 50px 270px 10px 280px;
+    text-align: center;
+}
+
+.skills__container {
+    padding: 20px 270px 50px 280px;
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.skills__items {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 50px;
+}
+
+.skills__items__text {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    font-size: 1.5em;
+    text-align: center;
+    gap: 10px;
+    background-color: #486275;
+    padding-bottom: 10px;
+}
+
+.skills_img {
+    width: 100px;
+    flex-grow: 1;
+    padding-left: 112px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skills_img_E {
+    width: 100px;
+    flex-grow: 1;
+    padding-left: 112px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Hobbies*/
+
+.hobbies__titulo {
+    font-size: 3em;
+    padding: 50px 270px 10px 280px;
+    text-align: center;
+}
+
+.Hobbies__container {
+    padding: 20px 270px 80px 280px;
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.Hobbies__items {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 50px;
+}
+
+.Hobbies__items__text {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    font-size: 1.5em;
+    text-align: center;
+    gap: 10px;
+    background-color: #486275;
+    padding-bottom: 10px;
+}
+
+.Hobbies_img {
+    width: 100px;
+    flex-grow: 1;
+    padding-left: 112px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Hobbies_img__M {
+    width: 100px;
+    flex-grow: 1;
+    padding-left: 112px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Formación académica*/
+
+.formación__titulo {
+    font-size: 3em;
+    padding: 50px 270px 10px 280px;
+    text-align: center;
+}
+
+.formación__container {
+    padding: 20px 270px 80px 280px;
+    display: flex;
+    flex-grow: 1;
+    background-color: #A9D5F5;
+}
+
+.formación__items {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 10px;
+}
+
+.formación__items__text {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    font-size: 1.5em;
+    text-align: center;
+    gap: 10px;
+    background-color: #7C91A0;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.formación_img {
+    width: 270px;
+    flex-grow: 1;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formación_img__a {
+    width: 340px;
+    flex-grow: 1;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Experiencia profesional*/
+
+.exp__container {
+    padding: 80px 270px 150px 236px;
+    justify-content: space-around;
+    gap: 40px;
+    align-self: flex-start;
+}
+
+.exp__titulo {
+    font-size: 3em;
+    padding: 50px 270px 10px 280px;
+    text-align: center;
+}
+
+.exp__img {
+    float: left;
+    width: 900px;
+    padding: 0 10px 0 150px ;
+  
+}
+
+.exp__informaicion {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    padding: 150px 0 0px 50px ;
+    font-style: normal;
+}
+
+.exp__informaicion__uno {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-style: normal;
+    padding: 0 0 0px 50px ;
+}
+
+.exp__iconos__item {
+    display: flex;
+    font-size: 1.5em;
+    padding: 20px 0 150px 50px ;
+    gap: 20px;
+   
+}
+
+.exp__Repositorio , .exp__Demo {
+    margin: 20px 15px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0E2433;
+}
+
+/*Formulario*/
+
+.formulario__container {
+    padding: 50px 270px 80px 280px;
+    gap: 20px;
+}
+
+.formulario__titulo {
+    font-size: 3em;
+    padding: 10px 0px 10px 0px ;
+}
+
+.formulario__informacion {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25em;
+    padding: 10px 270px 20px 0px ;
+    font-style: normal;
+}
+
+.formulario__img {
+    float: left;
+    width: 650px;
+    height: 900px;
+    padding: 10px 30px 30px 0 ;
+}
+
+.formulario__recuadro {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px 10px 20px 10px ;
+}
+
+.formulario__recuadro {
+    margin: 30px 15px 30px 0px;
+    width: 35%;
+}
+
+.formulario__enviar {
+    margin: 20px 15px 0px 0px;
+    width: 10%;
+    padding: 20px 20px 20px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0E2433;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    font-size: 1.35em;
+    padding: 30px 0px 30px 0px;
+    background-color: #21394B;
+    color: white;
+}
+
+
+/*Media*/
+
+@media screen and (max-width:480px) {
+
+
+    /*Cabecera*/
+
+.cabecera__container {
+    display: flex;
+    flex-shrink: 2;
+    padding-top: 40px;
+}
+
+.cabecera__name {
+    font-size: 0.80em;
+    padding: 0 0 0 10px;
+}
+
+.cabecera__iconos__item {
+    display: inline-block;
+    font-size: 0.80em;
+    flex-shrink: 2;
+    padding: 0 10px 0 0px;
+}
+
+.cabecera__about , .cabecera__skills , .cabecera__hobbies , .cabecera__formacion , .cabecera__proyectos {
+    display: none;
+}
+
+/*Información principal*/
+
+.principal__container {
+ display: inline-block;
+ padding: 0 0 0 0;
+}
+
+.principal__titulo {
+    display: block;
+    font-size: 1.5em;
+    padding: 180px 0 20px 10px ;
+    width: 430px;
+    font-weight: bolder;
+}
+
+.principal__informaicion {
+    display: block;
+    width: 430px;
+    font-size: 1em;
+    padding: 0px 0 20px 10px ;
+}
+
+.principal__img {
+    position: absolute;
+    display: block;
+    width: 150px;
+    padding: 10px 10px 10px 10px ;
+   border-radius: 50% 50% 50% 50% ;
+}
+
+.principal__iconos__item {
+    display: flex;
+    font-size: 1em;
+    padding: 0 10px 10px 10px ;
+    gap: 2px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.principal__iconos__item__img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Sobre mi*/
+
+.about__container {
+    padding: 0px 0px 0px 0px;
+    background-color: #A9D5F5;
+}
+
+.about__titulo {
+    font-size: 1.5em;
+    padding: 10px 0 30px 10px ;
+    font-weight: bolder;
+}
+
+.about__informacion__cero {
+    font-size: 0.9em;
+    padding: 0 0px 0 0;
+}
+
+.about__informacion__dos , .about__informacion__uno {
+    padding: 0 0 30px 0 ;
+}
+
+.about__img {
+    background-color: #A9D5F5;
+    width: 150px;
+    padding-top:15px;
+}
+
+/*Skills*/
+
+.skills__titulo {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 180px;
+}
+
+.skills__container {
+    padding: 5px 10px 0px 10px;
+}
+
+
+.skills__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 0%;
+}
+
+
+.skills__items__text {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    font-size: 1em;
+    text-align: center;
+    gap: 10px;
+    background-color: #486275;
+    padding: 20px 20px 20px 20px;
+}
+
+.skills_img {
+    width: 100px;
+    flex-grow: 1;
+    padding: 10px 10px 10px 20px;
+}
+
+.skills_img_E {
+    width: 100px;
+    flex-grow: 1;
+    padding: 10px 10px 10px 125px;
+}
+
+/*Hobbies*/
+
+.hobbies__titulo {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 160px;
+}
+
+.Hobbies__container {
+    padding: 5px 10px 0px 10px;
+}
+
+.Hobbies__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 0%;
+}
+
+.Hobbies__items__text {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    font-size: 1em;
+    text-align: center;
+    gap: 10px;
+    background-color: #486275;
+    
+}
+
+.Hobbies_img  {
+    width: 100px;
+    flex-grow: 1;
+    padding: 10px 10px 10px 50px;
+    align-items: center;
+}
+
+.Hobbies_img__M {
+    width: 100px;
+    flex-grow: 1;
+    padding: 10px 10px 10px 150px;
+    align-items: center;
+}
+
+/*Formación académica*/
+
+.formación__titulo {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 80px;
+}
+
+.formación__container {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #A9D5F5;
+}
+
+.formación__items {
+    display: inline-block;
+    align-items: center;
+    gap: 10px;
+}
+
+.formación__items__text {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    font-size: 1em;
+    text-align: center;
+    gap: 10px;
+    background-color: #7C91A0;
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 10px;
+}
+
+.formación_img {
+    width: 120px;
+    flex-grow: 1;
+    padding: 0;
+    padding: 10px 0px 10px 130px;
+}
+
+.formación_img__a {
+    width: 120px;
+    flex-grow: 1;
+    padding: 10px 0px 10px 130px;
+}
+
+/*Experiencia profesional*/
+
+.exp__container {
+    padding: 0px 0px 0px 0px;
+    justify-content: space-around;
+    gap: 40px;
+    align-self: flex-start;
+}
+
+.exp__titulo {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 80px;
+}
+
+.exp__img {
+    float: left;
+    width: 350px;
+    padding: 0 0px 0 30px ;
+  
+}
+
+.exp__informaicion {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 0 0px 50px ;
+    font-style: normal;
+}
+
+.exp__informaicion__uno {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25em;
+    font-style: normal;
+    padding: 5px 0 0px 50px ;
+}
+
+.exp__iconos__item {
+    display: flex;
+    font-size: 1em;
+    padding: 10px 0 50px 50px ;
+    gap: 20px;
+   
+}
+
+.exp__Repositorio , .exp__Demo {
+    margin: 10px 15px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0E2433;
+}
+
+/*Formulario*/
+
+.formulario__container {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 0px 0px 0px 10px;
+}
+
+.formulario__titulo {
+    font-size: 3em;
+    padding: 10px 0px 10px 0px ;
+}
+
+.formulario__informacion {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    padding: 0px 5px 20px 10px ;
+    font-style: normal;
+}
+
+.formulario__img {
+ display: none;
+}
+
+.formulario__recuadro {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px 10px 20px 10px ;
+}
+
+.formulario__recuadro {
+    margin: 15px 15px 30px 0px;
+    width: 85%;
+}
+
+.formulario__enviar {
+    margin: 0px 15px 20px 0px;
+    width: 50%;
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8em;
+    color: white;
+    background-color: #0E2433;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    padding: 30px 0px 30px 0px;
+    background-color: #21394B;
+    color: white;
+}
+
+
+}
+
+/*Media para tablet*/
+
+@media screen and (max-width: 1280px)  {
+
+
+    /*Cabecera*/
+
+.cabecera__container {
+    display: flex;
+    flex-shrink: 2;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.cabecera__name {
+    font-size: 0.80em;
+    padding: 0 0 0 10px;
+}
+
+.cabecera__iconos__item {
+    display: inline-block;
+    font-size: 0.80em;
+    flex-shrink: 2;
+    padding: 0 10px 0 0px;
+}
+
+.cabecera__about , .cabecera__skills , .cabecera__hobbies , .cabecera__formacion , .cabecera__proyectos {
+    display: none;
+}
+
+/*Información principal*/
+
+.principal__container {
+ justify-content: space-around;
+ gap: 40px;
+ align-self: flex-start;
+ padding: 0 0 0 0;
+}
+
+.principal__titulo {
+    font-size: 2em;
+    padding: 20px 0 0px 10px ;
+}
+
+.principal__informaicion {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding: 10px 0 20px 10px;
+    font-style: normal;
+}
+
+.principal__img {
+    float: right;
+    width: 150px;
+    padding: 10px 10px 0 0;
+   border-radius: 50% 50% 50% 50% ;
+}
+
+.principal__iconos__item {
+    display: flex;
+    font-size: 1em;
+    padding: 0 10px 10px 10px ;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.principal__iconos__item__img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Sobre mi*/
+
+.about__container {
+    padding: 0px 0px 0px 0px;
+    background-color: #A9D5F5;
+}
+
+.about__titulo {
+    font-size: 1.5em;
+    padding: 10px 0px 10px 10px;
+    font-weight: bolder;
+}
+
+.about__informacion__cero {
+    font-size: 0.9em;
+    padding: 0 0px 0 0;
+}
+
+.about__informacion__dos , .about__informacion__uno {
+    padding: 0 0 30px 0 ;
+}
+
+.about__img {
+    background-color: #A9D5F5;
+    width: 150px;
+    padding-top:15px;
+}
+
+/*Skills*/
+
+.skills__titulo {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 480px;
+}
+
+.skills__container {
+    padding: 5px 10px 0px 10px;
+}
+
+
+.skills__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 0%;
+}
+
+
+.skills__items__text {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    font-size: 1em;
+    text-align: center;
+    gap: 10px;
+    background-color: #486275;
+    padding: 20px 20px 20px 20px;
+}
+
+.skills_img {
+    width: 100px;
+    flex-grow: 1;
+    padding: 10px 10px 10px 80px;
+}
+
+.skills_img_E {
+    width: 100px;
+    flex-grow: 1;
+    padding: 10px 10px 10px 170px;
+}
+
+/*Hobbies*/
+
+.hobbies__titulo {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 460px;
+}
+
+.Hobbies__container {
+    padding: 5px 10px 0px 10px;
+}
+
+.Hobbies__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 0%;
+}
+
+.Hobbies__items__text {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    font-size: 1em;
+    text-align: center;
+    gap: 10px;
+    background-color: #486275;
+    
+}
+
+.Hobbies_img  {
+    width: 100px;
+    flex-grow: 1;
+    padding: 10px 10px 10px 80px;
+    align-items: center;
+}
+
+.Hobbies_img__M {
+    width: 100px;
+    flex-grow: 1;
+    padding: 10px 10px 10px 440px;
+    align-items: center;
+}
+
+/*Formación académica*/
+
+.formación__titulo {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 400px;
+}
+
+.formación__container {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #A9D5F5;
+}
+
+.formación__items {
+    display: inline-block;
+    align-items: center;
+    gap: 10px;
+}
+
+.formación__items__text {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    font-size: 1em;
+    text-align: center;
+    gap: 10px;
+    background-color: #7C91A0;
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 10px;
+}
+
+.formación_img {
+    width: 120px;
+    flex-grow: 1;
+    padding: 0;
+    padding: 10px 0px 10px 420px;
+}
+
+.formación_img__a {
+    width: 120px;
+    flex-grow: 1;
+    padding: 10px 0px 10px 420px;
+}
+
+/*Experiencia profesional*/
+
+.exp__container {
+    padding: 0px 0px 0px 0px;
+    justify-content: space-around;
+    gap: 40px;
+    align-self: flex-start;
+}
+
+.exp__titulo {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 0px 10px 400px;
+}
+
+.exp__img {
+  
+    width: 500px;
+    padding: 0 0px 0 30px ;
+  
+}
+
+.exp__informaicion {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 5px 0 0px 50px ;
+    font-style: normal;
+}
+
+.exp__informaicion__uno {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25em;
+    font-style: normal;
+    padding: 5px 0 0px 50px ;
+    margin: 0 0 0 0;
+}
+
+.exp__iconos__item {
+    display: flex;
+    font-size: 1em;
+    padding: 10px 0 50px 50px ;
+    gap: 20px;
+   
+}
+
+.exp__Repositorio , .exp__Demo {
+    margin: 10px 15px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0E2433;
+}
+
+/*Formulario*/
+
+.formulario__container {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 0px 0px 0px 10px;
+}
+
+.formulario__titulo {
+    font-size: 1.5em;
+    padding: 10px 0px 10px 3px ;
+}
+
+.formulario__informacion {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    padding: 0px 5px 20px 0px ;
+    font-style: normal;
+}
+
+.formulario__img {
+ display: none;
+}
+
+.formulario__recuadro {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px 10px 20px 12px ;
+}
+
+.formulario__recuadro {
+    margin: 15px 0px 30px 0px;
+    width: 85%;
+}
+
+.formulario__enviar {
+    margin: 0px 15px 20px 0px;
+    width: 50%;
+    padding: 10px 20px 10px 20px;
+    font-size: 0.7em;
+    color: white;
+    background-color: #0E2433;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    padding: 30px 0px 30px 0px;
+    background-color: #21394B;
+    color: white;
+}
+
+}
+
+
+
+
+
+
